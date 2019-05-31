@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/duwa_arabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reference"
+            android:textSize="21dp"
+            android:fontFamily="serif-monospace"
+            android:textAlignment="center"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/duwa_hindi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:fontFamily="serif-monospace"
+            android:layout_below="@+id/duwa_arabic"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

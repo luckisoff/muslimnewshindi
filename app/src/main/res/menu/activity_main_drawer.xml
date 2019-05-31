@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:state_checked="true"
+            android:title="होम" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_books"
+            android:title="वक्त नमाज" />
+
+        <item
+            android:id="@+id/nav_duwa"
+            android:icon="@drawable/ic_people"
+            android:title="रब्बना दुवा" />
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_settings"
+            android:title="क्यालेण्डर" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_story"
+            android:state_checked="true"
+            android:title="कथाए" />
+        <item
+            android:id="@+id/women_section"
+            android:icon="@drawable/ic_women_library"
+            android:title="महिला बिशेष"/>
+
+    </group>
+
+
+    <item android:title="सेटिंगस्">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="ऐप सेटिंगस्" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_share"
+                android:title="साझा करे" />
+        </menu>
+    </item>
+
+</menu>

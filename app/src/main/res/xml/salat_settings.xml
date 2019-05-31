@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="नमाज सेटिंगस">
+        <ListPreference
+            android:defaultValue="@string/value_calculation_method"
+            android:dialogTitle="@string/calculation_method"
+            android:entries="@array/calculation_entries"
+            android:entryValues="@array/calculation_values"
+            android:key="@string/key_calculation_method"
+            android:summary="@string/summary_calculation_method"
+            android:title="@string/title_calculation_method" />
+
+        <ListPreference
+            android:defaultValue="@string/value_hijriday"
+            android:dialogTitle="@string/dihijri"
+            android:entries="@array/days_adjust_entry"
+            android:entryValues="@array/days_adjust_values"
+            android:key="@string/key_hijriday"
+            android:summary="@string/summary_hijriday"
+            android:title="@string/title_hijriday" />
+        <ListPreference
+            android:defaultValue="@string/value_jusristic"
+            android:dialogTitle="@string/title_di_juristic"
+            android:entries="@array/juristic_entry"
+            android:entryValues="@array/juristic_values"
+            android:key="@string/key_juristic"
+            android:summary="@string/summary_juristic"
+            android:title="@string/title_juristic" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/notifications_new_message"
+            android:title="@string/title_notification" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+
+    </PreferenceCategory>
+</PreferenceScreen>

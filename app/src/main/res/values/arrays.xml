@@ -1,0 +1,39 @@
+<resources>
+    <string-array name="calculation_entries">
+        <item>मुस्लिम वर्ल्ड लिग</item>
+        <item>ईस्लामिक सोसाईटी अफ नर्थ अमेरिका</item>
+        <item>जनरल अथॉरिटी ऑफ सर्वे, मिस्र</item>
+        <item>इस्लामीक विज्ञान विश्वविद्यालय, कराची</item>
+    </string-array>
+    <string-array name="calculation_values">
+        <item>MWL</item>
+        <item>ISNA</item>
+        <item>EGYPT</item>
+        <item>KARACHI</item>
+    </string-array>
+
+    <string-array name="days_adjust_entry">
+        <item>२ दिन पहले</item>
+        <item>१ दिन पहले</item>
+        <item>कोई समायोजन नहीं</item>
+        <item>१ दिन बाद</item>
+        <item>२ दिन बाद</item>
+    </string-array>
+
+    <string-array name="days_adjust_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="juristic_entry">
+        <item>शाफई/हंबली/मालिकी</item>
+        <item>हनफी</item>
+    </string-array>
+    <string-array name="juristic_values">
+        <item>Standard</item>
+        <item>Hanafi</item>
+    </string-array>
+</resources>
